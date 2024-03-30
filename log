@@ -89,3 +89,18 @@ Sat 30 Mar 2024 04:01:03 AM UTC:
  tests:  2|5
 total_score: 15/70
 693ab6b
+Sat 30 Mar 2024 04:01:18 AM UTC: 
+ list.c | 2 --
+ 1 file changed, 2 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘firstList’:
+list.c:43:12: error: ‘j’ undeclared (first use in this function)
+   43 |     return j;
+      |            ^
+list.c:43:12: note: each undeclared identifier is reported only once for each function it appears in
+list.c:44:1: error: control reaches end of non-void function [-Werror=return-type]
+   44 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+4aa21f9
