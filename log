@@ -237,3 +237,14 @@ list.c:110:13: error: unused variable ‘aux’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 16b535b
+Sat 30 Mar 2024 05:16:19 AM UTC: 
+ list.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:111:11: error: unused variable ‘aux’ [-Werror=unused-variable]
+  111 |     void *aux = list->current->data;
+      |           ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+6c45628
