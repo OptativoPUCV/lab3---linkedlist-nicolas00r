@@ -290,3 +290,16 @@ Sat 30 Mar 2024 05:33:51 AM UTC:
  tests:  12|0
 total_score: 70/70
 82e4324
+Sat 30 Mar 2024 05:34:08 AM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘pushFront’:
+list.c:72:28: error: expected ‘;’ before ‘if’
+   72 |     list->current = newNode
+      |                            ^
+      |                            ;
+   73 |     if(list->tail == NULL) list->tail = newNode;
+      |     ~~                      
+Compilation failed
+c4b3697
