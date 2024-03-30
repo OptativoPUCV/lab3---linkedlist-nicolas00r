@@ -248,3 +248,9 @@ list.c:111:11: error: unused variable ‘aux’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 6c45628
+Sat 30 Mar 2024 05:18:47 AM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  12|0
+total_score: 70/70
+3e96b5a
