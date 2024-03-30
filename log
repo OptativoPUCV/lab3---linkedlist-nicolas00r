@@ -83,3 +83,9 @@ list.c:44:4: error: ‘J’ undeclared (first use in this function)
 list.c:44:4: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 a717ac8
+Sat 30 Mar 2024 04:01:03 AM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|5
+total_score: 15/70
+693ab6b
