@@ -223,3 +223,17 @@ Sat 30 Mar 2024 05:09:34 AM UTC:
  tests:  12|0
 total_score: 70/70
 f0062af
+Sat 30 Mar 2024 05:15:50 AM UTC: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:111:5: error: ‘else’ without a previous ‘if’
+  111 |     else if(list->head == list->current){
+      |     ^~~~
+list.c:110:13: error: unused variable ‘aux’ [-Werror=unused-variable]
+  110 |       void *aux = list->current->data;
+      |             ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+16b535b
