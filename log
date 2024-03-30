@@ -72,3 +72,14 @@ list.c:43:7: note: declared here
 cc1: all warnings being treated as errors
 Compilation failed
 272a44f
+Sat 30 Mar 2024 04:00:56 AM UTC: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘firstList’:
+list.c:44:4: error: ‘J’ undeclared (first use in this function)
+   44 |   *J = 0;
+      |    ^
+list.c:44:4: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+a717ac8

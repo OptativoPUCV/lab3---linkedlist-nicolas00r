@@ -40,8 +40,8 @@ List * createList() {
 void * firstList(List * list) {
     if(list->head == NULL) return NULL;
     list->current = list->head;
-  int a = 0;
-  int *j = &a;
+  int *j = malloc(sizeof(int));
+  *J = 0;
     return j;
 }
 
