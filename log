@@ -60,3 +60,15 @@ Sat 30 Mar 2024 03:59:21 AM UTC:
  tests:  1|5
 total_score: 10/70
 44040fc
+Sat 30 Mar 2024 03:59:51 AM UTC: 
+ list.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+list.c: In function ‘firstList’:
+cc1: error: function may return address of local variable [-Werror=return-local-addr]
+In file included from test.c:5:
+list.c:43:7: note: declared here
+   43 |   int a = 0;
+      |       ^
+cc1: all warnings being treated as errors
+Compilation failed
+272a44f
